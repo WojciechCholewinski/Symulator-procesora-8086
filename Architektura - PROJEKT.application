@@ -7,7 +7,7 @@
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="https://github.com/WojciechCholewinski/Symulator-procesora-8086/blob/main/Architektura%20-%20PROJEKT.exe"      size="4712">
+    <dependentAssembly dependencyType="install" codebase="https://github.com/WojciechCholewinski/Symulator-procesora-8086/blob/main/Application Files\Architektura - PROJEKT_1_0_0_0\Architektura - PROJEKT.dll.manifest" size="4712">
       <assemblyIdentity name="Architektura - PROJEKT.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>

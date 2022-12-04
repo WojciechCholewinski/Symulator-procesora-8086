@@ -61,7 +61,7 @@ body
 {
 	float: left;
 	width: 148px;
-	height: 540px;
+	height: 440px;
 	padding:20px;
 	background-color: lightgray;
 	text-align: center;
@@ -75,7 +75,7 @@ body
 	padding: 40px;
 	width: 730px;
 	background-color: #dedede;
-	height: 500px;
+	height: 400px;
 	text-align: justify;
 }
 
@@ -103,7 +103,7 @@ body
 	min-width: 50px;
 	height: 25px;
 	font-size: 18px;
-	padding: 10px;
+	padding: 12px 40px 12px 40px;
 	border-right: 2px dotted #444444;
 	opacity: 0.8;
 	text-decoration: none;
@@ -136,9 +136,12 @@ body
 .optionL
 {
 	font-size:18px;
-	height:25px;
+	height: 25px;
 	padding: 10px;
 	border-bottom: 2px dotted #444444;
+	border-top: 2px dotted #444444;
+	text-decoration: none;
+	color: black;
 }
 
 .optionL:hover
@@ -146,6 +149,9 @@ body
 	background-color: #f36742;
 	color: white;
 	cursor: pointer;
+}
+.leftsidetekst{
+	text-decoration: none;
 }
 
 .bigtitle
@@ -167,7 +173,30 @@ body
 	text-align: center;
 }
 
-
+.github{
+	font-size: 27px;
+	font-weight: 800;
+	letter-spacing: 2px;
+	text-decoration: none;
+	color: black;
+	border-radius: 30px;
+}.github:visited
+{
+	color: black;
+	}
+.github:link 
+{
+	color: black;
+	}
+.github:active 
+{
+	color: black;
+	}
+.github:hover 
+{
+	background-color: lightgray;
+	cursor: pointer;
+	}
 
 
 
@@ -182,7 +211,7 @@ body
 }
 
 button {
-	width: 150px;
+	width: 200px;
 	height: 50px;
 	cursor: pointer;
 	font-size: 20px;

@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+ <!DOCTYPE HTML>
 <html lang="pl">
 <head>
 	<meta charset="utf-8" />
@@ -17,41 +17,74 @@
 	<div id="container">
 	
 		<div id="logo">
+			Symulator mikroprocesora :)
 		</div>
 		
 		<div id="menu">
+			<a class="optionlink" href="index.html">
+			<div>Strona główna</div>
+			</a>
+
 			
+			<a class="optionlink" href="jakużywać.html">
+			<div>Jak używać</div>
+			</a>
+			
+			<a class="optionlink" href="pobierz.html">
+			<div>Instalacja</div>
+			</a>
+			
+			<div class="option">Instalacja</div>
+			<div class="option">O projekcie</div>
+			<div style="clear:both;"></div>
 		</div>
 		
 		<div id="topbar">
 			<div id="topbarL">
+				<img width="130" height="130" src="computer.png" />
 			</div>
 			<div id="topbarR">
-				<span class="bigtitle"></span>
+				<span class="bigtitle">O projekcie słów kilka</span>
 				<div style="height: 15px;"></div>
-				
+				Simulator of MOV and XCHG instructions, for arithmetic registers of the 8086 processor.
 			</div>
 			<div style="clear:both;"></div>
 		</div>
 		
 		<div id="sidebar">
-			
+			<div class="optionL">Strona główna</div>
+			<div class="optionL">Jak używać</div>
+			<div class="optionL">Instalacja</div>
+			<div class="optionL">O projekcie</div>
 		</div>
 		
 		<div id="content">
-			<span class="bigtitle"></span>
+			<span class="bigtitle">Jak używać symulatora?</span>
 			
 			<div class="dottedline"></div>
 			
-			<!-- tekst -->
+			Program stworzony w ramach powyższego projektu jest symulacją rozkazów MOVE oraz EXCHANGE dla mikroprocesora Intel 8086. Symuluje on przesłanie zawartości pomiędzy dwoma rejestrami z puli : {AX, BX, CX, DX}, jak i również umieszczanie wartości w owych rejestrach; manualnie bądź przyznanych losowo. Prezentuje on również tryby adresowania rejestrowy, jak i również natychmiastowy.
 			
-			<br/><br/><br/>
+			<br/><br/>
+			Przycisk „RANDOM INPUT” umożliwia nam wylosowanie wartości hexadecymalnej (by później móc ją użyć w rozkazie MOVE)
+			
+			<br/><br/>
+			Przycisk „RANDOM REGISTERS” umożliwia nam wylosowanie szesnatkowych wartości i umieszczenie ich od razu w rejestrach AX, BX, CX, oraz DX.
+			
+			<br/><br/>
+			Rozkaz MOV – dwuargumentowy rozkaz (gdzie pierwszy operand stanowi cel, a drugi źródło). W niniejszym symulatorze po naciśnięciu przycisku np. „MOV AX, BX” wartość szesnastkowa zostaje przesłana z rejestru BX do AX. Jest to przykład adresowania rejestrowego.
+			
+			<br/><br/>
+			Drugim przykładem użycia rozkazu MOV jest wciśnięcie przycisku np. „INPUT TO AX”, za pomocą którego umieszczamy w rejestrze AX wpisaną wcześniej w polu INPUT liczbę, a nie inny rejestr. Tym razem jest to więc przykład adresowania natychmiastowego.
+			
+			<br/><br/>		
+			Rozkaz XCHG – również dwuargumentowy, umożliwiający zamianę wartości rejestrów, które są podane jako jego argumenty. Tu np. po naciśnięciu przycisku „XCHG AX, BX” wartość, która była w rejestrze AX znajdzie się w BX, a wartość z BX trafi do AX.
 			
 			
 		</div>	
 		
 		<div id="footer">
-			
+			Symulator assemblera. Wojciech Cholewinski 2022r. &copy; Wszelkie prawa zastrzeżone
 		</div>
 	
 	</div>
